@@ -9,5 +9,5 @@ app.get('/getCompareKPIDepartment', function(req, res){
    res.send("Hello world!");
 });
 
-app.listen(5000);
+app.listen(process.env.PORT || 3000);
 
