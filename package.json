@@ -1,20 +1,32 @@
 {
-  "name": "microservice",
+  "name": "comparing_service",
   "version": "1.0.0",
-  "description": "IT4883",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": ""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Le_Viet_Hoang",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "cheerio": "^1.0.0-rc.3",
-    "express": "^4.16.4",
-    "express-session": "^1.16.1",
-    "mysql": "^2.16.0",
-    "request": "^2.88.0"
+    "axios": "^0.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "express-winston": "^4.0.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.7",
+    "mongoose-morgan": "^1.0.12",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
